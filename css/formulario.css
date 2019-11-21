@@ -1,0 +1,292 @@
+
+
+.seleccionadores{background: #1c9cd8; margin: 0;}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: #1c9cd8;
+  border: none;
+  color: #fff;
+  font-family: "Uni Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fad206;
+  color: #fff;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #fad206;
+}
+
+.button.is-checked {
+  color: #fff;
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: none;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.grid-item,.grid-sizer{
+  width: calc(25% - 10px);
+  padding-top: calc(25% - 10px);
+  position: absolute;
+  cursor: pointer;
+}
+
+.grid-item-2x {
+  width: calc(50% - 10px);
+  padding-top: calc(50% - 10px);
+}
+/*
+.grid-item-height-1x{
+  height: 50%;
+}
+*/
+
+.close-phone{
+  font-size: 2.5rem;
+  color: var(--danger);
+}
+
+@media screen and (max-width: 992px) {
+  .grid-item, .grid-sizer{
+    width: calc(50% - 10px);
+    padding-top: calc(50% - 10px);
+  }
+
+  .button {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .grid-item, .grid-sizer{
+    width: calc(100% - 10px);
+    padding-top: calc(100% - 10px);
+  }
+  .button {
+    font-size: 28px;
+  }
+}
+
+.item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.content-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cursor1{cursor:pointer; position:relative;  z-index: 1;}
+
+
+.nombre-terminal-destacado{
+  color: #606060;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: rgba(255,255,255,0.7);
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.nombre-terminal{
+  color: #606060;
+  font-size: 1.5em;
+  font-weight: 600;
+  background-color: rgba(255,255,255,0.7);
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+}
+.cuota{
+  font-size: 3rem;
+  line-height: 2rem;
+  color: #00a1e4;
+}
+.precio-cuota{
+  font-size: 7rem;
+  line-height: 7rem;
+  color: #00a1e4;
+}
+.iva{
+  font-size: 2rem;
+  line-height: 1rem;
+  color: #00a1e4;
+}
+.cuota-equipo{
+  font-size: 1.9rem;
+  color: #00a1e4;
+  font-family: "Uni Sans Light";
+}
+.formulario-modal{
+  background-color:#00a1e4;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+.formulario-modal h2{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2rem;
+  font-family: "Uni Sans Light";
+}
+
+.form-area input {
+  padding: 1.5rem;
+  font-family: "Uni Sans Light";
+}
+.form-area input, .form-area textarea {
+  border-radius: 0.40em;
+  font-size: 1rem;
+  font-family: "Uni Sans Light";
+}
+.form-area input::placeholder{
+  color:#00a1e4;
+  font-size: 1rem;
+  font-family: "Uni Sans Light";
+}
+.form-area textarea {
+	height: 180px;
+	margin-top: 0px;
+}
+.form-area button{
+  background-color: #fad206;
+  color:#00a1e4;
+  font-size: 1.3rem;
+  border-radius: 0.80em;
+  border: 0px;
+  width: 30%;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.mb-5 {
+	margin-bottom: 5px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.mb-15 {
+	margin-bottom: 15px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.mb-25 {
+	margin-bottom: 25px;
+}
+.mb-30 {
+	margin-bottom: 30px;
+}
+.mb-40 {
+	margin-bottom: 40px;
+}
+.mb-50 {
+	margin-bottom: 50px;
+}
+.mb-60 {
+	margin-bottom: 60px;
+}
+.mb-70 {
+	margin-bottom: 70px;
+}
+.mb-80 {
+	margin-bottom: 80px;
+}
+.mb-90 {
+	margin-bottom: 90px;
+}
+.mb-100 {
+	margin-bottom: 100px;
+}
+.terminal-modal{
+  font-size: 3rem;
+  color:#606060;
+}
+.spec-modal{
+  font-size: 2.5rem;
+  font-family: "Uni Sans Light";
+}
+.list-spect{
+  font-size: 2rem;
+  color:#606060;
+  font-family: "Uni Sans Light";
+}
+.listas-modal{
+  color:#606060;
+}
+.pantalla{
+  list-style-image: url("../img/icon-cel.png");
+}
+.procesador{
+  list-style-image: url("../img/icon-procesador.png");
+}
+.ram{
+  list-style-image: url("../img/icon-ram.png");
+}
+.almacenamiento{
+  list-style-image: url("../img/icon-almacenamiento.png");
+}
+.expansion{
+  list-style-image: url("../img/icon-externa.png");
+}
+.camara{
+  list-style-image: url("../img/icon-camara.png");
+}
+.bateria{
+  list-style-image: url("../img/icon-bateria.png");
+}
+.sistema-operativo{
+  list-style-image: url("../img/icon-so.png");
+}
+.perfil{
+  list-style-image: url("../img/icon-perfil.png");
+}
+.peso-terminal{
+  list-style-image: url("../img/icon-peso.png");
+}
+.footer{
+  padding-top: 15px;
+  background-color:#fff;
+  color:#1c9cd8;
+  bottom: 0;
+}
+
+
